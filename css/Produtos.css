@@ -1,7 +1,6 @@
-
 .saudacao {
     background: #e9f2fa;
-    padding-left: 3.3rem;
+    /* padding-left: 3.3rem; */
 }
 h1 {
     font-size: 48px;
@@ -20,11 +19,11 @@ p {
 .selectJornada {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
 }
 
 .jornada {
-    width: 20rem;
+    width: 24rem;
     height: 298px;
-    margin: 0 2px 0 0;
 }
