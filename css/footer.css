@@ -6,7 +6,7 @@ footer {
   text-align: left;
   font: normal 16px sans-serif;
   padding: 45px 50px;
-  position: absolute;
+  /* position: absolute; */
 }
 
 footer .footer-left p {
