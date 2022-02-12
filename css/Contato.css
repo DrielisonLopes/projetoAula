@@ -1,23 +1,25 @@
+.raul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato {
+    background: #e9f2fa;
+    padding: 60px 110px 120px;
+    color: #000;
+    text-align: center;
+    width: 70%;
+    margin: 50px 0;
+}
+
 .faleConosco {
     color: #478ac9;
     text-align: center;
     font-size: 48px;
     margin: 0;
-    padding-bottom: 2.5rem;
-}
-
-.formulario {
-    width: 100%;
-}
-
-.contato {
-    background: #e9f2fa;
-    padding-left: 3.3rem;
-    padding: 60px 110px 120px;
-    color: #000;
-    text-align: center;
-    width: 70%;
-    margin: 50px 50px;
+    padding-bottom: 2.2rem;
 }
 
 input, textarea {
@@ -46,24 +48,24 @@ input, textarea {
 
 input {
     width: 100%;
+    padding: 0.5rem;
 }
 
 textarea {
     height: 16vh;
-    padding-top: 0.5rem;
+    padding: 0.5rem;
 }
 
 .btnEnviar {
     color: #ffffff;
     background-color: #478ac9;
-    margin-left: auto;
     width: 100%;
-    padding: 0.8rem 0;
+    padding: 0.8rem;
     border-style: none;
     font-weight: 700;
     font-size: 1.125rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 0.6rem 0 1rem;
+    margin: 0.6rem 0 1rem 0.5rem;
     cursor: pointer;
 }

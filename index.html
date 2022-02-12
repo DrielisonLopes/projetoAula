@@ -14,14 +14,14 @@
 </head>
 <body>
     
-    <nav class="menu">
+    <nav id="topo" class="menu">
         <ul>
-            <li><a href=""><img class="logoImg" src="img/meulogo1.png" />Vamos Viajar</a></li>
+            <li><a href="./index.html"><img class="logoImg" src="img/meulogo1.png" />Vamos Viajar</a></li>
             <div class="menuDiv">
-            <li><a href="">Home</a></li>
-            <li><a href="">Produtos</a></li>
-            <li><a href="">Promoções</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#journey">Produtos</a></li>
+            <li><a href="./promocoes.html">Promoções</a></li>
+            <li><a href="#faleConosco">Contato</a></li>
             </div>
         </ul>
     </nav>
@@ -37,7 +37,7 @@
     
     <div class="saudacao">
         <section class="tituloJornada" >
-            <h1>Inicie sua jornada</h1>
+            <h1 id="journey">Inicie sua Jornada</h1>
             <p class=""> O momento mais feliz da vida humana, penso eu, é uma partida para terras desconhecidas.</p>
         </section>
         <section class="selectJornada">
@@ -80,11 +80,9 @@
         </section>
     </div>
 
-    
-
-    <div>
+        <div class="raul">
         <div class="contato">
-            <h2 class="faleConosco">Fale conosco</h2>
+            <h2 class="faleConosco" id="faleConosco">Fale conosco</h2>
 
             <div class="formulario">
                 <form action="#" method="POST" class="" source="custom" name="form">
@@ -113,7 +111,7 @@
                 </form>
             </div>
         </div>
-    </div>
+        </div>
 
 		<footer>
 			<div class="footer-right">
@@ -122,10 +120,10 @@
 				<a href="#"><i class="fa fa-github"></i></a>
 				<a href="#"><i class="fa fa-youtube-play"></i></a>
 			</div>
-
+            
 			<div class="footer-left">
-				<p class="footer-links">
-					<a class="link-1" href="#">Home</a>
+                <p class="footer-links">
+                    <a class="link-1" href="#">Home</a>
 					<a href="#">Produtos</a>
 					<a href="#">Promoções</a>
 					<a href="#">Sobre</a>
@@ -133,6 +131,7 @@
 					<a href="#">Contatos</a>
 				</p>
 				<p>Drielison Lopes - Afro Academy &copy; 2022</p>
+                <a href="#topo"><i class="fa fa-solid fa-angle-up"></i></i></a>
 			</div>
 		</footer>
 

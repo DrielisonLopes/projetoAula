@@ -48,31 +48,31 @@ img {
     font-size: 32px;
 }
 
+h1, .fraseTopo {
+    color: #f8f8f8;
+    text-shadow: rgb(231, 170, 56) 0.1em 0.1em 0.6em;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+.fraseTopo {
+    font-size: 26px;
+}
+
 .fraseFooter {
     text-align: center;
     grid-column: span 4;
-    margin-top: 60px;
+    margin-top: 4rem;
     line-height: 2rem;
-}
-
-
-
-
-.saudacao {
-    padding-left: 3.3rem;
-}
-h1 {
-    font-size: 48px;
+    font-size: 26px;
 }
 
 .tituloJornada {
     color: #478ac9;
     text-align: center;
     padding: 0.5rem;
-}
-
-p {
-    color: #5377b0;
 }
 
 .selectJornada {
@@ -85,4 +85,14 @@ p {
     width: 20rem;
     height: 298px;
     margin: 0 2px 0 0;
+}
+
+@media (max-width: 600px) {
+    .grid {
+        display: block;
+    }
+
+    .menuDiv {
+        display: none;
+    }
 }

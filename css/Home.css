@@ -28,3 +28,21 @@
     box-shadow: 0 0 1em #8F7;
     transition: 0.7s;
 }
+
+@media (max-width: 600px) {
+    h3 {
+        display: none;
+    }
+
+    .tituloHome {
+        margin: 0;
+    }
+
+    .menuDiv {
+        display: none;
+    }
+
+    .jornada {
+        width: 22rem;
+    }
+}
